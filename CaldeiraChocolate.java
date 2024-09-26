@@ -4,7 +4,7 @@ public class CaldeiraChocolate {
 
     private static CaldeiraChocolate instancia;
 
-    // Armazenar os agendamentos
+    
     private boolean vazia;
     private boolean fervida;
 
@@ -21,7 +21,7 @@ public class CaldeiraChocolate {
         return instancia;
     }
 
-    // Agendar uma audiência
+    
     public String encher() {
         if (this.vazia == true) {
             this.vazia = false;
